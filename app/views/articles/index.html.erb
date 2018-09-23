@@ -1,0 +1,19 @@
+<h1> List of articles </h1>
+<%= link_to 'New article', new_article_path %>
+
+<table>
+    <tr>
+        <th>Title</th>
+        <th>Text</th>
+        <th></th>
+    </tr>  
+
+    <% @articles.each do |page|%>
+        <tr>
+            <td><%= page.title %></td>
+            <td><%= page.text %></td>
+            <td><%= link_to 'Show', article_path(page) %></td>
+            <td><%= link_to 'Edit', edit_article_path(page)%></td>
+        </tr>
+    <% end %>
+</table>
