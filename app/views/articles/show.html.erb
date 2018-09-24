@@ -1,3 +1,9 @@
+<% if @article.image.attached?%>
+    <p>
+        <%= image_tag @article.image %>
+    </p>
+<% end %>
+
 <p>
     <strong> Title:</strong>
     <%= @article.title %>
