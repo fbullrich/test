@@ -4,21 +4,12 @@
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
-Things you may want to cover:
-
 * Ruby 2.4.2
+* Ruby on Rails 5.2.1
 
-* System dependencies
+Hello, this is a repo I'm making while learning git and ruby on rails
 
-* Configuration
+please feel free to let me know if you see any errors or have any tips
 
-* Database creation
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructio* 
 
